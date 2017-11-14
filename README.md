@@ -21,7 +21,6 @@ The manuscript was submitted to `GigaScience`. The preprint version can be read 
 
 ### Data model of HNSCC
 
-# <div style="float: right; margin-left: 10px;"><img title="GeNNet." style="float: right;margin-left: 10px;" src="GennetShiny/www/img/logoNew.png" align=right height=80/></div>
 ![Figure 1: Data model representation.](img/HPV-network.png)
 
 
