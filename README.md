@@ -7,7 +7,6 @@ output: html_document
 
 [![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badge/)
 [![GPL Licence](https://badges.frapsoft.com/os/gpl/gpl.svg?v=103)](https://opensource.org/licenses/GPL-3.0/)
-[![neo4j](https://github.com/quelopes/HNSCC-network/tree/master/logo/neo4j_logo.svg)](https://opensource.org/licenses/GPL-3.0/)
 
 
 # HNSCC Graph Network
@@ -22,6 +21,8 @@ The manuscript was submitted to `GigaScience`. The preprint version can be read 
 
 ### Data model of HNSCC
 
+# <div style="float: right; margin-left: 10px;"><img title="GeNNet." style="float: right;margin-left: 10px;" src="GennetShiny/www/img/logoNew.png" align=right height=80/></div>
+![Figure 1: Data model representation.](img/HPV-network.png)
 
 
 Where:
