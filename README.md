@@ -22,6 +22,16 @@ The manuscript was submitted to `GigaScience`. The preprint version can be read 
 ### Data model of HNSCC
 
 
+
+Where:
+
+* DEMG: 
+* TF
+* 
+
+
+
+
 ### How to use
 
 #### Install local `Neo4j` (version 2.3.4).
