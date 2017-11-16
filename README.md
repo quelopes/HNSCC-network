@@ -48,9 +48,9 @@ You need change the configuration.
 
 ### Simple queries
 
-There are many possibilities of queries in a graph database. Here are some sample Cypher queries.
+There are many possibilities of queries in a graph database using [Cypher](https://neo4j.com/developer/cypher-query-language/), a declarative SQL-inspired language. Here are two Cypher queries examples.
 
-Show all genes with are co-expressed and have PPI interactions:
+Show all co-expressed genes with PPI interactions too:
 
     MATCH (g:GENE)-[r:PPI_interaction]-(h:GENE)-[r2:Co_expression]-(g) 
     RETURN count(g)

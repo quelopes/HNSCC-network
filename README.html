@@ -163,8 +163,8 @@ $(document).ready(function () {
 </div>
 <div id="simple-queries" class="section level3">
 <h3>Simple queries</h3>
-<p>There are many possibilities of queries in a graph database. Here are some sample Cypher queries.</p>
-<p>Show all genes with are co-expressed and have PPI interactions:</p>
+<p>There are many possibilities of queries in a graph database using <a href="https://neo4j.com/developer/cypher-query-language/">Cypher</a>, a declarative SQL-inspired language. Here are two Cypher queries examples.</p>
+<p>Show all co-expressed genes with PPI interactions too:</p>
 <pre><code>MATCH (g:GENE)-[r:PPI_interaction]-(h:GENE)-[r2:Co_expression]-(g) 
 RETURN count(g)</code></pre>
 <p>Find the gene connections among two modues via PPI:</p>
