@@ -11,10 +11,10 @@ output: html_document
 
 Head-neck-squamous cell carcinoma is heterogeneous cancer which affects around 300,000 people in the word per year. Among the risk factors are smoking, alcohol and HPV infections. The TCGA (The Cancer Genome Atlas) is paramount of data collection of more than 30 cancer types. The diversity of omic layers, such as RNA-seq, methylation, miRNA, proteomic, clinical, copy number variation and mutation, can be analyzed in different aspects including mathematical models, machine learning, and data model. 
 
-The manuscript was submitted to `GigaScience`. The preprint version can be read in [Arxiv:](). We chose the graph data model (in `Neo4j` database) to put and store your results. This model consists mainly of nodes, edges, and properties.  
+The manuscript was submitted to `GigaScience`. The preprint version can be read in [Arxiv:](). The graph data model (`Neo4j` database) was chosed to be easier to explore the connectivity among genes in the co-expressed network. This model consists mainly of nodes, edges, and properties.  
 
 
-### Netork data model 
+### Network data model 
 
 ![Figure 1: Data model representation with nodes and edges.](img/HPV-network.png)
 
@@ -50,19 +50,21 @@ You need change the configuration.
 
 There are many possibilities of queries in a graph database. Here are some sample Cypher queries.
 
-Show all pages linked to a given starting page - e.g. "Neo4j":
+Show all genes with are co-expressed and have PPI interactions:
 
-    MATCH (p0:Page {title:'Neo4j'}) -[Link]- (p:Page)
-    RETURN p0, p
+    MATCH (g:GENE)-[r:PPI_interaction]-(h:GENE)-[r2:Co_expression]-(g) 
+    RETURN count(g)
+    
+Find the gene connections among two modues via PPI:
 
-Find how two pages - e.g. "Neo4j" and "Kevin Bacon" - are connected:
-
-    MATCH (p0:Page {title:'Neo4j'}), (p1:Page {title:'Kevin Bacon'}),
-      p = shortestPath((p0)-[*..6]-(p1))
-    RETURN p
+    MATCH (m:MODULE)-[r0:Belong]-(g:GENE)-[r:PPI_interaction]-(h:GENE)-[r2:Belong]-(mo:MODULE) 
+    WHERE m.name="YellowHPV+" AND mo.name= "BlueHPV+" 
+    RETURN DISTINCT g, m, h, mo
 
 ### Contact
 If you have any consideration for this work which can improve the quality, please let us know! Thanks ;-)
 
 Contact quelopes@gmail.com. 
 <!-- Ask questions and please report any bug you find. -->
+<!-- MATCH (m:MODULE)-[r0:Belong]-(g:GENE)-[r:PPI_interaction]-(h:GENE)-[r2:Co_expression]-(g) WHERE m.name="BlueHPV+" return g -->
+<!-- MATCH (m:MODULE)-[r0:Belong]-(g:GENE)-[r:PPI_interaction]-(h:GENE)-[r2:Co_expression]-(g) WHERE m.name="YellowHPV+" return g -->
