@@ -9,9 +9,11 @@ output: html_document
 
 ### Introduction
 
-Head-neck-squamous cell carcinoma is heterogeneous cancer which affects around 300,000 people in the word per year. Among the risk factors are smoking, alcohol and HPV infections. The TCGA (The Cancer Genome Atlas) is paramount of data collection of more than 30 cancer types. The diversity of omic layers, such as RNA-seq, methylation, miRNA, proteomic, clinical, copy number variation and mutation, can be analyzed in different aspects including mathematical models, machine learning, and data model. 
+Head-and-neck squamous cell carcinoma (HNSCC) is a heterogeneous malignancy which accounts for approximately 300,000 deaths each year worldwide. Smoking, alcohol, and infections by high-risk human papillomavirus (HPV) are among the main risk factors for the development of the disease. The incidence of HPV-associated HNSCC is around 25% of the reported cases worldwide, with an even higher proportion in oropharyngeal cancer, and a predominance of infection by HPV-16 and HPV-18 types among those cases. 
 
-The manuscript was submitted to `GigaScience`. The preprint version can be read on [Arxiv](). The graph data model (`Neo4j` database) was chosed to be easier to explore the connectivity among genes in the co-expressed network. This model consists mainly of nodes, edges, and properties.  
+The TCGA (The Cancer Genome Atlas) is paramount for data collection of more than 30 cancer types. The diversity of omic layers, such as RNA-seq, methylation, miRNA, proteomic, clinical, copy number variation and mutation, can be analyzed in different aspects including mathematical models, machine learning, and data model. 
+
+The manuscript was submitted to `GigaScience`. The preprint version can be read on [PeerJ preprint](). The graph data model (`Neo4j` database) was chosen to be easier to explore the connectivity among genes in the co-expressed network. This model consists mainly of nodes, edges, and properties.  
 
 
 ### Network data model 
