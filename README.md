@@ -13,10 +13,13 @@ Head-and-neck squamous cell carcinoma (HNSCC) is a heterogeneous malignancy whic
 
 The TCGA (The Cancer Genome Atlas) is paramount for data collection of more than 30 cancer types. The diversity of omic layers, such as RNA-seq, methylation, miRNA, proteomic, clinical, copy number variation and mutation, can be analyzed in different aspects including mathematical models, machine learning, and data model. 
 
-The manuscript was submitted to `GigaScience`. The preprint version can be read on [PeerJ preprint](). The graph data model (`Neo4j` database) was chosen to be easier to explore the connectivity among genes in the co-expressed network. This model consists mainly of nodes, edges, and properties.  
+### How cite us
 
+The manuscript was submitted to `GigaScience`. The preprint version can be read on [PeerJ preprint](). 
 
 ### Network data model 
+
+The graph data model (`Neo4j` database) was chosen to be easier to explore the connectivity among genes in the co-expressed network. This model consists mainly of nodes, edges, and properties.  
 
 ![Figure 1: Data model representation with nodes and edges.](img/HPV-network.png).
 
