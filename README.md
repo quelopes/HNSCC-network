@@ -31,7 +31,7 @@ Neo4j is a highly scalable, robust (fully ACID) native graph database. Neo4j is 
 
 #### Install `Neo4j` (version 2.3.4) locally.
 
-Visit the site: (https://neo4j.com/release-notes/neo4j-2-3-4/) and get the instruction how to download and unzip Neo4j.
+Visit the site: (https://neo4j.com/release-notes/neo4j-2-3-4/) and get the instructions on how to download, unzip, and install Neo4j.
 
 
 #### Put the database
