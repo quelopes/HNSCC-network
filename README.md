@@ -34,26 +34,26 @@ Neo4j is a highly scalable, robust (fully ACID) native graph database. Neo4j is 
 Visit the site: (https://neo4j.com/release-notes/neo4j-2-3-4/) and get the instructions on how to download, unzip, and install Neo4j.
 
 
-#### Put the database
+#### Load the database
 
 The database directory `hdscc.db` can be moved to `neo4j-community-xxx/data/`.
 
 #### Change the configuration
 
-You need change the configuration. 
+You need to change the configuration. 
 
-* Open the archive `/conf/neo4j-server.properties`.
+* Open the file: `/conf/neo4j-server.properties`.
 * Change the line: `org.neo4j.server.database.location=data/graph.db` to `org.neo4j.server.database.location=data/hpv.db`.
-* Save and close the archive.
+* Save and close the file.
 
 #### Start and use the database
 
-* Start Neo4j in: `./bin/neo4j start`. 
-* Open the browser and write the locahost in 7474 port: (http://localhost:7474).
+* Start Neo4j: `./bin/neo4j start`. 
+* Open the browser and access: http://localhost:7474.
 
 ### Simple queries
 
-There are many possibilities of queries in a graph database using [Cypher](https://neo4j.com/developer/cypher-query-language/), a declarative SQL-inspired language. Here are two Cypher queries examples.
+There are many possibilities of queries in a graph database using [Cypher](https://neo4j.com/developer/cypher-query-language/), a declarative SQL-inspired language. Here are two Cypher query examples.
 
 Show all co-expressed genes with PPI interactions too:
 
@@ -67,7 +67,7 @@ Find the gene connections among two modues via PPI:
     RETURN DISTINCT g, m, h, mo
 
 ### Contact
-If you have any consideration for this work which can improve the quality, please let us know! Thanks ;-)
+If you have any comment or question about this work which can improve its quality, please let us know! Thanks ;-)
 
 **e-mail**: quelopes@gmail.com. 
 <!-- Ask questions and please report any bug you find. -->
