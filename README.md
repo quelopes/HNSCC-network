@@ -25,7 +25,7 @@ The graph data model (`Neo4j` database) was chosen to be easier to explore the c
 
 ### Neo4j
 
-Neo4j is a highly scalable, robust (fully ACID) native graph database. Neo4j is used in mission-critical apps by thousands of leading, startups, enterprises, and governments around the world.
+Neo4j is a highly scalable, robust (fully ACID) native graph database. Neo4j is used in mission-critical apps by thousands of startups, enterprises, and governments around the world.
 
 ### How to use
 
