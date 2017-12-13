@@ -5,7 +5,7 @@
 output: html_document
 ---
 
-# Head-neck-squamous-cell-carcinome co-expression network of HPV+ samples
+# Head-and-neck squamous cell carcinome co-expression network of HPV+ samples
 
 ### Introduction
 
@@ -15,11 +15,11 @@ The TCGA (The Cancer Genome Atlas) is paramount for data collection of more than
 
 ### How to cite us
 
-The manuscript was submitted to `GigaScience`. The preprint version can be read on [PeerJ preprints](). 
+The manuscript was submitted to `GigaScience`. The preprint version can be read on [bioRxiv](). 
 
 ### Network data model 
 
-The graph data model (`Neo4j` database) was chosen to be easier to explore the connectivity among genes in the co-expressed network. This model consists mainly of nodes, edges, and properties.  
+The graph data model (`Neo4j` database) was chosen to better explore the connectivity among genes in the co-expressed networks. This model consists mainly of nodes, edges and properties.  
 
 ![Figure 1: Data model representation with nodes and edges.](img/HPV-network.png).
 
