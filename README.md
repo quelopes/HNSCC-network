@@ -36,7 +36,7 @@ Visit the site: (https://neo4j.com/release-notes/neo4j-2-3-4/) and get the instr
 
 #### Load the database
 
-The database directory `hdscc.db` can be moved to `neo4j-community-xxx/data/`.
+The database directory `hdscc.db` must be moved to `neo4j-community-xxx/data/`.
 
 #### Change the configuration
 
@@ -53,9 +53,9 @@ You need to change the configuration.
 
 ### Simple queries
 
-There are many possibilities of queries in a graph database using [Cypher](https://neo4j.com/developer/cypher-query-language/), a declarative SQL-inspired language. Here are two Cypher query examples.
+There are many possibilities of queries in a graph database using [Cypher](https://neo4j.com/developer/cypher-query-language/), a declarative SQL-inspired language. Here are two Cypher query examples:
 
-Show all co-expressed genes with PPI interactions too:
+Show all co-expressed genes and PPI interactions:
 
     MATCH (g:GENE)-[r:PPI_interaction]-(h:GENE)-[r2:Co_expression]-(g) 
     RETURN count(g)
@@ -65,9 +65,9 @@ Find the gene connections among two modues via PPI:
     MATCH (m:MODULE)-[r0:Belong]-(g:GENE)-[r:PPI_interaction]-(h:GENE)-[r2:Belong]-(mo:MODULE) 
     WHERE m.name="YellowHPV+" AND mo.name= "BlueHPV+" 
     RETURN DISTINCT g, m, h, mo
-
+>
 ### Contact
-If you have any comment or question about this work which can improve its quality, please let us know! Thanks ;-)
+If you have any comments or questions about this work which can improve it, please let us know! Thanks ;-)
 
 **e-mail**: quelopes@gmail.com. 
 <!-- Ask questions and please report any bug you find. -->
