@@ -5,7 +5,7 @@
 output: html_document
 ---
 
-# Head-and-neck squamous cell carcinome co-expression network of HPV+ samples
+# Head-and-neck squamous cell carcinome co-expression networks of HPV+ samples
 
 ### Introduction
 
