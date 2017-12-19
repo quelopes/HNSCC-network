@@ -5,9 +5,7 @@
 output: html_document
 ---
 
-[![DOI](https://zenodo.org/badge/76561830.svg)](http://dx.doi.org/10.1101/236133)
 [![Open Source Love](https://badges.frapsoft.com/os/v3/open-source.png?v=103)](https://github.com/ellerbrock/open-source-badges/)
-<div class='altmetric-embed' data-badge-type='donut' data-doi="10.1038/nature.2012.9872"></div>
 
 
 # Head-and-neck squamous cell carcinome co-expression networks of HPV+ samples
