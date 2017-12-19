@@ -18,7 +18,7 @@ The TCGA (The Cancer Genome Atlas) is paramount for data collection of more than
 
 ### How to cite us
 
-The manuscript was submitted to `GigaScience`. The preprint version can be read on [bioRxiv](http://dx.doi.org/10.1101/236133).
+The manuscript was submitted to `[GigaScience](https://academic.oup.com/gigascience)`. The preprint version can be read on [bioRxiv](http://dx.doi.org/10.1101/236133).
 
 ### Network data model 
 
