@@ -1,8 +1,7 @@
 ---
-# title: "GraphDB"
-# author: "Raquel L. Costa"
-# date: "11/14/2017"
-output: html_document
+output:
+  pdf_document: default
+  html_document: default
 ---
 
 [![Open Source Love](https://badges.frapsoft.com/os/v3/open-source.png?v=103)](https://github.com/ellerbrock/open-source-badges/)
