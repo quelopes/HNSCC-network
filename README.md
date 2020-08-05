@@ -17,7 +17,7 @@ The TCGA (The Cancer Genome Atlas) is paramount for data collection of more than
 
 ### How to cite us
 
-The article can be read on [`Scientific Reports`](http://dx.doi.org/10.1038/s41598-018-33498-5).
+The article can be read on [`Scientific Reports`](http://dx.doi.org/10.1038/s41598-018-33498-5). DOI: 10.1038/s41598-018-33498-5.
 
 ### Network data model 
 
